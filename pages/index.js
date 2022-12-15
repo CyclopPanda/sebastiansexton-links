@@ -15,108 +15,92 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
-          </p>
+      <div>
+        <div>
+          <svg width="1375" height="353" viewBox="0 0 1375 353" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.4">
+          <g opacity="0.6" filter="url(#filter0_f_19_56)">
+          <path d="M1006.8 -55.7218C956.738 -46.9245 917.592 -23.6399 902.048 4.7669C886.949 32.3594 901.623 61.4725 929.43 85.6733C956.963 109.637 997.749 129.48 1047.99 131.784C1097.15 134.038 1139.95 116.889 1174.49 96.9104C1209.08 76.9096 1239.64 52.2206 1233.68 24.4008C1227.7 -3.44544 1187.51 -23.1997 1145.55 -38.0191C1103.2 -52.9742 1054.44 -64.0931 1006.8 -55.7218Z" fill="url(#paint0_linear_19_56)"/>
+          </g>
+          <g opacity="0.9" filter="url(#filter1_f_19_56)">
+          <path d="M710.072 -223.412C639.377 -211.959 600.095 -170.156 560.408 -132.725C523.259 -97.6885 486.957 -60.9136 493.777 -19.4126C501.024 24.6754 540.082 64.4701 597.312 91.8214C657.407 120.541 732.395 136.489 808.218 130.863C887.468 124.983 967.252 103.023 1008.34 61.3281C1047.46 21.6227 1022.59 -26.8116 1008.42 -72.3088C994.695 -116.394 985.946 -163.806 929.302 -192.494C869.344 -222.861 785.43 -235.622 710.072 -223.412Z" fill="url(#paint1_linear_19_56)"/>
+          </g>
+          <g filter="url(#filter2_f_19_56)">
+          <path opacity="0.6" d="M529.877 -70.9185C490.932 -69.1799 451.085 -50.7537 434.886 -22.0255C420.064 4.25753 442.396 32.9265 456.32 59.5302C465.816 77.6707 479.852 93.404 500.655 103.629C519.435 112.859 541.302 110.583 563.196 112.06C597.274 114.358 634.98 131.641 661.833 114.499C690.605 96.1319 696.602 60.7763 688.974 31.7624C681.698 4.09798 651.034 -12.8238 623.716 -30.4552C594.907 -49.0471 566.664 -72.5612 529.877 -70.9185Z" fill="#0500FF"/>
+          </g>
+          <g opacity="0.9" filter="url(#filter3_f_19_56)">
+          <path opacity="0.6" d="M326.407 -98.8941C270.144 -83.8304 217.686 -45.5442 202.869 -0.801312C189.316 40.1343 230.67 72.2542 259.136 104.272C278.546 126.108 303.839 143.155 337.313 150.433C367.53 157.002 398.72 146.758 431.101 141.66C481.502 133.727 541.789 145.201 575.692 112.909C612.016 78.3091 609.923 27.7817 589.9 -9.59822C570.808 -45.2388 520.9 -58.5077 475.657 -73.8403C427.945 -90.0084 379.548 -113.123 326.407 -98.8941Z" fill="url(#paint2_linear_19_56)"/>
+          </g>
+          </g>
+          <defs>
+          <filter id="filter0_f_19_56" x="756" y="-198.598" width="618.425" height="470.582" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="70" result="effect1_foregroundBlur_19_56"/>
+          </filter>
+          <filter id="filter1_f_19_56" x="292.946" y="-428.004" width="936.404" height="759.987" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_19_56"/>
+          </filter>
+          <filter id="filter2_f_19_56" x="270" y="-231" width="582" height="513" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="80" result="effect1_foregroundBlur_19_56"/>
+          </filter>
+          <filter id="filter3_f_19_56" x="0.215454" y="-303.334" width="803.958" height="655.899" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_19_56"/>
+          </filter>
+          <linearGradient id="paint0_linear_19_56" x1="999.464" y1="8.66612" x2="1344.49" y2="164.138" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FFE8C7"/>
+          <stop offset="1" stop-color="#FFCD1B"/>
+          </linearGradient>
+          <linearGradient id="paint1_linear_19_56" x1="718.257" y1="-18.5942" x2="1166.59" y2="185.149" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FF0099"/>
+          <stop offset="1" stop-color="#FFD600"/>
+          </linearGradient>
+          <linearGradient id="paint2_linear_19_56" x1="244.683" y1="39.5617" x2="520.405" y2="16.3635" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#99FFF3"/>
+          <stop offset="1" stop-color="#0038FF"/>
+          </linearGradient>
+          </defs>
+          </svg>
+        </div>
+        <div>
+          <div className={styles.bio_wrapper}>
+            <h6 className={styles.title}>
+              CyclopPanda
+            </h6>
+            <p className={styles.shortbio}>
+              A programming wizard, voyaging in the ocean of web design     Creating a better world
+            </p>
+          </div>
           <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+            <ul>
+              <li>
+                <a></a>
+              </li>
+              <li>
+                <a></a>
+              </li>
+              <li>
+                <a></a>
+              </li>
+              <li>
+                <a></a>
+              </li>
+              <li>
+                <a></a>
+              </li>
+            </ul>
           </div>
         </div>
+      </div>
+      <div>
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
+      </div>
       </main>
     </>
   )
